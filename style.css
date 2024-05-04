@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: red;
+}
+.navbar {
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 8px rgb(102, 102, 102);
+}
+
+
+/* Products CSS */
+#products {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.img-card {
+    height: 130px;
+    width: 125px;
+}
+.card {
+    background-color: rgb(21, 21, 21, .2);
+}
+.btn {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+    justify-content: center;
+}
